@@ -1,0 +1,11 @@
+## Task Description
+- [x] Q0: Gem5 + NVmain Build-up
+	- Instructions given in PPT
+- [x] Q1: Enable L3 last level cache in GEM5 + NVmain
+	- 5 config files, recompile
+- [x] Q2: Config last level cache to 2-way and full and full-way associative ache and test performance.
+	- `l3_assoc=16384` and `l3_assoc=2`
+- [x] Q3: Modify last level cache policy based on RRIP
+	- `replacement_policy = RRIP()`
+- [x] Q4: Test the performance of write back and write through policy based on 4-wau associatve cache with isscc_pcm
+	- modify `base.cc`
